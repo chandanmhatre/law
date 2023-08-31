@@ -7,7 +7,6 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-
 h1,
 h2, 
 h3, 
@@ -35,6 +34,25 @@ a:focus {
 
 .btn:focus {
     box-shadow: none;
+}
+
+.practiceWraper {
+    margin: 150px auto;
+    width: 70%;
+}
+
+.alphabetic{
+    list-style-type: lower-alpha; 
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: emoji;
+    color: black;
+}
+.numeric {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-family: emoji;
+    color: black;
 }
 
 .wrapper {
@@ -68,6 +86,18 @@ a:focus {
 
 .back-to-top i {
     padding-top: 10px;
+}
+
+.imgHover{
+    position: relative;
+    width: 100%;  
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.imgHover:hover img{
+    transition: 1s;
+    transform: scale(1.1);
 }
 
 
@@ -182,6 +212,7 @@ a:focus {
     position: relative;
     padding: 20px 0;
     transition: .3s;
+    font-family: emoji;
 }
 
 .nav-bar.nav-sticky {
@@ -240,7 +271,7 @@ a:focus {
     
     .nav-bar,
     .nav-bar .navbar {
-        background: #121518 !important;
+        background: #000000 !important;
     }
     
     .nav-bar .navbar-brand {
@@ -258,7 +289,7 @@ a:focus {
     .nav-bar,
     .nav-bar .navbar {
         padding: 3px 0;
-        background: #121518 !important;
+        background: #000000 !important;
     }
     
     .nav-bar a.nav-link {
@@ -281,7 +312,7 @@ a:focus {
 .carousel {
     position: relative;
     width: 100%;
-    height: calc(100vh - 170px);
+    height: calc(105vh - 105px);
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
@@ -293,11 +324,16 @@ a:focus {
     width: 100%;
     height: 100%;
 }
+.carousel-item:hover img{
+    transform: scale(1.1);
+  }
 
 .carousel .carousel-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: brightness(50%);
+    transition: all 1s;
 }
 
 .carousel .carousel-item::after {
@@ -401,9 +437,9 @@ a:focus {
 .page-header {
     position: relative;
     margin-bottom: 45px;
-    padding: 90px 0;
+    padding: 40px 0;
     text-align: center;
-    background: #aa9166;
+    background: #10111b;
 }
 
 .page-header h2 {
@@ -469,7 +505,7 @@ a:focus {
     position: relative;
     width: 100%;
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
 }
 
 .section-header h2 {
@@ -518,7 +554,7 @@ a:focus {
 /*******************************/
 .feature-top {
     position: relative;
-    background: #121518;
+    background: #10111b;
     margin-bottom: 45px;
 }
 
@@ -598,8 +634,9 @@ a:focus {
 .about .about-img {
     position: relative;
     height: 100%;
-    padding: 10px;
+    padding: 6px;
     background: #121518;
+    float: left;
 }
 
 .about .about-img img {
@@ -610,6 +647,8 @@ a:focus {
 
 .about .about-text p {
     font-size: 16px;
+    color: black;
+    font-family: 'emoji';
 }
 
 .about .about-text a.btn {
@@ -638,6 +677,79 @@ a:focus {
         height: auto;
     }
 }
+
+/*******************************/
+/********* Service CSS *********/
+/*******************************/
+.wrapper{
+    padding: 10px 10%;
+}
+#card-area{
+    padding: 50px 0;
+}
+.practice-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.practice-box {
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+}
+.practice-box img{
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    transition: transform 0.5s;
+}
+.practice-box-overlay {
+	width: 100%;
+	height: 5;
+	background: linear-gradient(transparent,#1c1c1c 58%);
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 40px;
+    padding-bottom: 40px;
+	text-align: center;
+	font-size: 13px;
+    color: white;
+	transition: height 0.5s;
+}
+.practice-box-overlay h3 {
+	font-weight: 500;
+	margin-bottom: 5px;
+	margin-top: 80%;
+    color: yellow;
+	font-family: emoji;
+	font-size: 26px;
+}
+.practice-box-overlay a {
+	margin-top: 5px;
+	color: #262626;
+	text-decoration: none;
+	font-size: 14px;
+	background: #fff;
+	border-radius: 50px;
+	text-align: center;
+	padding: 5px 15px;
+}
+.practice-box:hover img{
+    transform: scale(1.1);
+}
+.practice-box:hover .practice-box-overlay{
+    height: 100%;
+}
+
 
 
 /*******************************/
@@ -1451,6 +1563,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
+    font-family: emoji;
 }
 
 .contact .contact-info {
@@ -1487,6 +1600,7 @@ a:focus {
     position: relative;
     width: auto;
     padding-left: 15px;
+    color: rgb(215, 215, 215);
 }
 
 .contact .contact-text h2 {
@@ -1497,7 +1611,7 @@ a:focus {
 
 .contact .contact-text p {
     margin: 0;
-    color: #999999;
+    color: #fcfcfc;
     font-size: 16px;
 }
 
@@ -1771,3 +1885,23 @@ a:focus {
         text-align: center;
     }
 }
+
+
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+  }
+  
+  .aqua-gradient {
+    background: linear-gradient(40deg, #fbd12c, #265372) !important;
+  }
+  
+  .testimonial-card .avatar {
+    width: 200px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 50%;
+  }
