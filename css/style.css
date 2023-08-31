@@ -2,7 +2,7 @@
 /********* General CSS *********/
 /*******************************/
 body {
-    color: #666666;
+    color: #0e293b;
     background: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -27,7 +27,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #aa9166;
+    color: #fbd12c;
     outline: none;
     text-decoration: none;
 }
@@ -66,7 +66,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #aa9166;
+    background: #fbd12c;
     color: #121518;
     width: 44px;
     height: 44px;
@@ -80,7 +80,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-    color: #aa9166;
+    color: #fbd12c;
     background: #121518;
 }
 
@@ -118,7 +118,7 @@ a:focus {
 
 .top-bar .logo h1 {
     margin: 0;
-    color: #aa9166;
+    color: #fbd12c;
     font-size: 75px;
     line-height: 55px;
     font-weight: 800;
@@ -184,7 +184,7 @@ a:focus {
 }
 
 .top-bar .social a:hover {
-    color: #aa9166;
+    color: #fbd12c;
     background: #ffffff;
 }
 
@@ -239,8 +239,9 @@ a:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #aa9166;
+    color: #fbd12c;
     transition: none;
+    letter-spacing: 1px;
 }
 
 .nav-bar .dropdown-menu {
@@ -252,12 +253,12 @@ a:focus {
 
 .nav-bar .btn {
     color: #ffffff;
-    border: 2px solid #aa9166;
+    border: 2px solid #fbd12c;
     border-radius: 0;
 }
 
 .nav-bar .btn:hover {
-    background: #aa9166;
+    background: #fbd12c;
 }
 
 @media (min-width: 992px) {
@@ -271,7 +272,7 @@ a:focus {
     
     .nav-bar,
     .nav-bar .navbar {
-        background: #000000 !important;
+        background: #265372 !important;
     }
     
     .nav-bar .navbar-brand {
@@ -289,7 +290,7 @@ a:focus {
     .nav-bar,
     .nav-bar .navbar {
         padding: 3px 0;
-        background: #000000 !important;
+        background: #265372 !important;
     }
     
     .nav-bar a.nav-link {
@@ -377,16 +378,16 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
+    color: #fbd12c;
     background: #121518;
-    border: 2px solid #aa9166;
+    border: 2px solid #fbd12c;
     border-radius: 0;
     transition: .3s;
 }
 
 .carousel .carousel-caption .btn:hover {
     color: #121518;
-    background: #aa9166;
+    background: #fbd12c;
 }
 
 @media (max-width: 767.98px) {
@@ -436,15 +437,15 @@ a:focus {
 /*******************************/
 .page-header {
     position: relative;
-    margin-bottom: 45px;
-    padding: 40px 0;
+    margin-bottom: 26px;
+    padding: 20px 0;
     text-align: center;
-    background: #10111b;
+    background: #fbd12c;
 }
 
 .page-header h2 {
     position: relative;
-    color: #121518;
+    color: #fbd12c;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -458,14 +459,14 @@ a:focus {
     height: 2px;
     left: calc(50% - 50px);
     bottom: 0;
-    background: #121518;
+    background: #fbd12c;
 }
 
 .page-header a {
     position: relative;
     padding: 0 12px;
     font-size: 22px;
-    color: #121518;
+    color: #fbd12c;
 }
 
 .page-header a:hover {
@@ -480,7 +481,7 @@ a:focus {
     top: -2px;
     right: -7px;
     text-align: center;
-    color: #121518;
+    color: #fbd12c;
 }
 
 .page-header a:last-child::after {
@@ -525,8 +526,8 @@ a:focus {
     left: 0;
     top: 21px;
     background: transparent;
-    border-top: 1px solid #aa9166;
-    border-bottom: 1px solid #aa9166;
+    border-top: 1px solid #c7a108;
+    border-bottom: 1px solid #c7a108;
     z-index: -1;
 }
 
@@ -538,8 +539,8 @@ a:focus {
     left: 0;
     bottom: 20px;
     background: transparent;
-    border-top: 1px solid #aa9166;
-    border-bottom: 1px solid #aa9166;
+    border-top: 1px solid #c7a108;
+    border-bottom: 1px solid #c7a108;
     z-index: -1;
 }
 
@@ -554,7 +555,7 @@ a:focus {
 /*******************************/
 .feature-top {
     position: relative;
-    background: #10111b;
+    background: #265372;
     margin-bottom: 45px;
 }
 
@@ -600,7 +601,7 @@ a:focus {
 }
 
 .feature-top .feature-item i {
-    color: #aa9166;
+    color: #fbd12c;
     font-size: 35px;
     margin-bottom: 10px;
 }
@@ -635,7 +636,7 @@ a:focus {
     position: relative;
     height: 100%;
     padding: 6px;
-    background: #121518;
+    background: #265372;
     float: left;
 }
 
@@ -659,8 +660,8 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
-    border: 2px solid #aa9166;
+    color: #fbd12c;
+    border: 2px solid #fbd12c;
     border-radius: 0;
     background: #121518;
     transition: .3s;
@@ -668,7 +669,7 @@ a:focus {
 
 .about .about-text a.btn:hover {
     color: #121518;
-    background: #aa9166;
+    background: #fbd12c;
 }
 
 @media (max-width: 767.98px) {
@@ -784,7 +785,7 @@ a:focus {
     padding: 20px 0;
     text-align: center;
     font-size: 60px;
-    color: #aa9166;
+    color: #fbd12c;
     background: #121518;
     transition: .5s;
 }
@@ -798,7 +799,7 @@ a:focus {
     padding: 25px 15px 15px 15px;
     font-size: 30px;
     font-weight: 600;
-    color: #aa9166;
+    color: #fbd12c;
 }
 
 .service .service-item p {
@@ -816,8 +817,8 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
-    border: 2px solid #aa9166;
+    color: #fbd12c;
+    border: 2px solid #fbd12c;
     border-radius: 0;
     background: #121518;
     transition: .3s;
@@ -825,7 +826,7 @@ a:focus {
 
 .service .service-item:hover a.btn {
     color: #121518;
-    background: #aa9166;
+    background: #fbd12c;
 }
 
 
@@ -848,7 +849,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #121518;
+    background: #265372;
 }
 
 .feature .feature-icon i {
@@ -857,8 +858,8 @@ a:focus {
     padding: 20px 0;
     text-align: center;
     font-size: 60px;
-    color: #aa9166;
-    background: #000000;
+    color: #fbd12c;
+    background: #265372;
     transition: .5s;
 }
 
@@ -881,7 +882,7 @@ a:focus {
     height: 2px;
     left: 0;
     bottom: 0;
-    background: #aa9166;
+    background: #fbd12c;
 }
 
 .feature .feature-item p {
@@ -893,7 +894,7 @@ a:focus {
     position: relative;
     height: 100%;
     padding: 10px;
-    background: #121518;
+    background: #265372;
 }
 
 .feature .feature-img img {
@@ -934,7 +935,7 @@ a:focus {
 .team .team-text h2 {
     font-size: 22px;
     font-weight: 600;
-    color: #aa9166;
+    color: #fbd12c;
 }
 
 .team .team-text p {
@@ -951,7 +952,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #aa9166;
+    background: #fbd12c;
     font-size: 0;
     transition: .5s;
 }
@@ -1013,13 +1014,13 @@ a:focus {
     padding-top: 15px;
     border: none;
     border-radius: 0;
-    border-top: 1px solid #aa9166;
+    border-top: 1px solid #fbd12c;
 }
 
 .faqs .card:last-child {
     margin-bottom: 0;
     padding-bottom: 15px;
-    border-bottom: 1px solid #aa9166;
+    border-bottom: 1px solid #fbd12c;
 }
 
 .faqs .card-header {
@@ -1043,7 +1044,7 @@ a:focus {
     margin-right: 10px;
     text-align: center;
     background: #121518;
-    color: #aa9166;
+    color: #fbd12c;
     font-weight: 700;
 }
 
@@ -1082,8 +1083,8 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
-    border: 2px solid #aa9166;
+    color: #fbd12c;
+    border: 2px solid #fbd12c;
     border-radius: 0;
     background: #121518;
     transition: .3s;
@@ -1091,7 +1092,7 @@ a:focus {
 
 .faqs a.btn:hover {
     color: #121518;
-    background: #aa9166;
+    background: #fbd12c;
 }
 
 
@@ -1137,7 +1138,7 @@ a:focus {
 }
 
 .testimonial .testimonial-item h2 {
-    color: #aa9166;
+    color: #fbd12c;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -1161,7 +1162,7 @@ a:focus {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #aa9166;
+    background: #fbd12c;
 }
 
 .testimonial .owl-dot.active {
@@ -1236,7 +1237,7 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
+    color: #fbd12c;
     transition: .3s;
 }
 
@@ -1260,7 +1261,7 @@ a:focus {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #aa9166;
+    background: #fbd12c;
 }
 
 .blog .owl-dot.active {
@@ -1270,13 +1271,13 @@ a:focus {
 .blog .pagination .page-link {
     color: #121518;
     border-radius: 0;
-    border-color: #aa9166;
+    border-color: #fbd12c;
 }
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
     color: #121518;
-    background: #aa9166;
+    background: #fbd12c;
 }
 
 .blog .pagination .disabled .page-link {
@@ -1320,7 +1321,7 @@ a:focus {
     position: absolute;
     width: 15px;
     height: 5px;
-    background: #aa9166;
+    background: #fbd12c;
     z-index: 1;
 }
 
@@ -1339,7 +1340,7 @@ a:focus {
     position: absolute;
     width: 15px;
     height: 5px;
-    background: #aa9166;
+    background: #fbd12c;
     z-index: 1;
 }
 
@@ -1362,18 +1363,18 @@ a:focus {
     padding: 30px;
     background: #121518;
     position: relative;
-    border-right: 5px solid #aa9166;
+    border-right: 5px solid #fbd12c;
 }
 
 .timeline .timeline-container.right .timeline-content {
-    border-left: 5px solid #aa9166;
+    border-left: 5px solid #fbd12c;
 }
 
 .timeline .timeline-container .timeline-content h2 {
     margin-bottom: 15px;
     font-size: 22px;
     font-weight: 600;
-    color: #aa9166;
+    color: #fbd12c;
 }
 
 .timeline .timeline-container .timeline-content h2 span {
@@ -1381,7 +1382,7 @@ a:focus {
     margin-right: 15px;
     padding: 5px 10px;
     color: #121518;
-    background: #aa9166;
+    background: #fbd12c;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
@@ -1420,7 +1421,7 @@ a:focus {
     
     .timeline .timeline-container.left .timeline-content,
     .timeline .timeline-container.right .timeline-content {
-        border-left: 5px solid #aa9166;
+        border-left: 5px solid #fbd12c;
         border-right: none;
     }
 }
@@ -1449,19 +1450,19 @@ a:focus {
     display: inline-block;
     margin: 5px;
     padding: 8px 15px;
-    color: #aa9166;
+    color: #fbd12c;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     border-radius: 0;
     background: #121518;
-    border: 2px solid #aa9166;
+    border: 2px solid #fbd12c;
     transition: .3s;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    background: #aa9166;
+    background: #fbd12c;
     color: #121518;
 }
 
@@ -1477,7 +1478,7 @@ a:focus {
 
 .portfolio .load-more .btn:hover {
     color: #121518;
-    background: #aa9166;
+    background: #fbd12c;
 }
 
 .portfolio .portfolio-item {
@@ -1537,7 +1538,7 @@ a:focus {
 
 .portfolio figure a {
     font-family: 'EB Garamond', serif;
-    color: #aa9166;
+    color: #fbd12c;
     font-size: 25px;
     font-weight: 600;
     font-style: italic;
@@ -1571,7 +1572,7 @@ a:focus {
     margin-bottom: 30px;
     width: 100%;
     padding: 30px;
-    background: #121518;
+    background: #265372;
 }
 
 .contact .contact-item {
@@ -1581,7 +1582,7 @@ a:focus {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    border: 2px solid #aa9166;
+    border: 2px solid #fbd12c;
 }
 
 .contact .contact-item i {
@@ -1592,8 +1593,8 @@ a:focus {
     align-items: center;
     justify-content: center;
     font-size: 30px;
-    color: #aa9166;
-    border: 2px solid #aa9166;
+    color: #fbd12c;
+    border: 2px solid #fbd12c;
 }
 
 .contact .contact-text {
@@ -1604,7 +1605,7 @@ a:focus {
 }
 
 .contact .contact-text h2 {
-    color: #aa9166;
+    color: #fbd12c;
     font-size: 25px;
     font-weight: 600;
 }
@@ -1628,14 +1629,14 @@ a:focus {
     height: 60px;
     border-radius: 0;
     border-width: 2px;
-    border-color: #121518;
+    border-color: #265372;
 }
 
 .contact .contact-form textarea {
     height: 190px;
     border-radius: 0;
     border-width: 2px;
-    border-color: #121518;
+    border-color: #265372;
 }
 
 .contact .contact-form .btn {
@@ -1644,16 +1645,16 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
-    background: #121518;
-    border: 2px solid #aa9166;
+    color: #fbd12c;
+    background: #265372;
+    border: 2px solid #fbd12c;
     border-radius: 0;
     transition: .3s;
 }
 
 .contact .contact-form .btn:hover {
-    color: #121518;
-    background: #aa9166;
+    color: #265372;
+    background: #fbd12c;
 }
 
 
@@ -1705,7 +1706,7 @@ a:focus {
     max-width: 900px;
     margin: 45px auto -140px auto;
     padding: 30px 15px;
-    background: #aa9166;
+    background: #fbd12c;
     z-index: 1;
 }
 
@@ -1739,16 +1740,16 @@ a:focus {
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
-    color: #aa9166;
+    color: #fbd12c;
     background: #121518;
     border-radius: 0;
-    border: 2px solid #aa9166;
+    border: 2px solid #fbd12c;
     transition: .3s;
 }
 
 .newsletter .btn:hover {
     color: #121518;
-    background: #aa9166;
+    background: #fbd12c;
 }
 
 
@@ -1759,7 +1760,7 @@ a:focus {
     position: relative;
     margin-top: 45px;
     padding-top: 30px;
-    background: #121518;
+    background: #265372;
     color: #ffffff;
 }
 
@@ -1778,7 +1779,7 @@ a:focus {
     margin-bottom: 30px;
     font-size: 25px;
     font-weight: 600;
-    color: #aa9166;
+    color: #fbd12c;
 }
 
 .footer .footer-link a {
@@ -1797,7 +1798,7 @@ a:focus {
 }
 
 .footer .footer-link a:hover {
-    color: #aa9166;
+    color: #fbd12c;
     letter-spacing: 1px;
 }
 
@@ -1817,7 +1818,7 @@ a:focus {
 .footer .footer-social a i {
     margin-right: 15px;
     font-size: 18px;
-    color: #aa9166;
+    color: #fbd12c;
 }
 
 .footer .footer-social a:last-child i {
@@ -1831,7 +1832,7 @@ a:focus {
 .footer .footer-menu .f-menu {
     position: relative;
     padding: 15px 0;
-    background: #000000;
+    background: #265372;
     font-size: 0;
     text-align: center;
 }
@@ -1845,7 +1846,7 @@ a:focus {
 }
 
 .footer .footer-menu .f-menu a:hover {
-    color: #aa9166;
+    color: #fbd12c;
 }
 
 .footer .footer-menu .f-menu a:last-child {
@@ -1869,7 +1870,7 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #aa9166;
+    color: #fbd12c;
     font-weight: 500;
     letter-spacing: 1px;
 }
