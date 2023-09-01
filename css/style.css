@@ -747,8 +747,12 @@ a:focus {
 .practice-box:hover img{
     transform: scale(1.1);
 }
-.practice-box:hover .practice-box-overlay{
-    height: 100%;
+
+
+@media(min-width: 767.98px) {
+    .practice-box:hover .practice-box-overlay{
+        height: 100%;
+    }
 }
 
 
@@ -1769,7 +1773,11 @@ a:focus {
 .footer .footer-contact {
     position: relative;
     margin-bottom: 45px;
-    color: #999999;
+    color: #ffffff;
+    text-align-last: start;
+}
+.footer .footer-about img{
+    width: 90%;
 }
 
 .footer .footer-about h2,
@@ -1785,7 +1793,7 @@ a:focus {
 .footer .footer-link a {
     display: block;
     margin-bottom: 10px;
-    color: #999999;
+    color: #ffffff;
     transition: .3s;
 }
 
@@ -1826,7 +1834,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-    color: #999999;
+    color: #ffffff;
 }
 
 .footer .footer-menu .f-menu {
@@ -1838,7 +1846,7 @@ a:focus {
 }
 
 .footer .footer-menu .f-menu a {
-    color: #999999;
+    color: #ffffff;
     font-size: 16px;
     margin-right: 15px;
     padding-right: 15px;
@@ -1862,7 +1870,7 @@ a:focus {
 
 .footer .copyright p {
     margin: 0;
-    color: #999999;
+    color: #ffffff;
 }
 
 .footer .copyright .col-md-6:last-child p {
@@ -1879,11 +1887,33 @@ a:focus {
     color: #ffffff;
 }
 
+@media (max-width: 992px) {
+    .footer .footer-about{
+    text-align-last: center;
+    }
+    .footer .footer-about img{
+    width: 30%;
+    }
+    .footer .footer-contact {
+        text-align-last: center;
+    }
+}
 @media (max-width: 768px) {
     .footer .copyright p,
     .footer .copyright .col-md-6:last-child p {
         margin: 5px 0;
         text-align: center;
+    }
+    .footer .footer-about{
+        text-align-last: center;
+        }
+    .footer .footer-about img{
+    width: 40%;
+    text-align-last: center;
+
+    }
+    .footer .footer-contact {
+        text-align-last: center;
     }
 }
 
